@@ -1,8 +1,18 @@
-import Image from "next/image";
-import 'bootstrap/dist/css/bootstrap.min.css';
+'use client'
+
+import Feature from "@/@core/component/feature";
+import Navbar from "@/@core/component/navbar";
+import Service from "@/@core/component/service";
+import Speciality from "@/@core/component/speciality";
 
 export default function Home() {
   return (
-    <p>landing page</p>
+    <>
+    <Navbar></Navbar>
+    <Service></Service>
+    <Feature></Feature>
+    <Speciality></Speciality>
+    </>
+    
   );
 }
