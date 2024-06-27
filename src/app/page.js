@@ -1,5 +1,6 @@
 'use client'
 
+import Contact from "@/@core/component/contact";
 import Feature from "@/@core/component/feature";
 import Navbar from "@/@core/component/navbar";
 import Service from "@/@core/component/service";
@@ -12,6 +13,8 @@ export default function Home() {
     <Service></Service>
     <Feature></Feature>
     <Speciality></Speciality>
+    <Contact></Contact>
+ 
     </>
     
   );
