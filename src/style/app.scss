@@ -24,6 +24,9 @@
 .orangeLight {
     color: #ffbd8d;
 }
+.gray {
+    color: #807d7b;
+}
 
 .white {
     color: #fff;
@@ -232,4 +235,22 @@ body {
     // background-image: url('../../public/test.jpg');
     // // background-repeat: no-repeat;
     // // background-size: cover;
+}
+
+
+/// footer 
+
+.footerIconContainer{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    transition: .3s ease;
+    font-size: 20px;
+    cursor: pointer;
+
+}
+.footerIconContainer:hover{
+    background-color: var(--orange);
 }
